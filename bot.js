@@ -6,7 +6,7 @@ console.log("Scrpit By Dream");
 client.on("ready", () => {
 let channel =     client.channels.get("552612635019837443")
 setInterval(function() {
-channel.send(**Moataz spam , Moataz spam , Moataz spam , Moataz spam Moataz spamMoataz spamMoataz spamMoataz spamMoataz spamMoataz spamMoataz spamMoataz spamMoataz spamMoataz spam , Moataz spam , Moataz spam , Moataz spam , Moataz spam , Moataz spam , Moataz spam , Moataz spam , Moataz spam , Moataz spam , Moataz spam , Moatazspam , Moataz, Moataz,Moataz** ,);
+channel.send(`**Alven Spam, Alven Spam, Alven Spam, Alven Spam, Alven Spam, Alven Spam, Alven Spam, Alven Spam, Alven Spam, Alven Spam, Alven Spam, Alven Spam, Alven Spam, ** ,`);
 }, 30)
 })
 
@@ -17,11 +17,11 @@ let command = "1say"
 
 if (!message.content.startsWith(command) || message.author.bot ) return;
 const args = message.content.slice(command.length).split(/ +/g).join(" ");
-var array = [${args}];
+var array = [`${args}`];
 var str = array.join(' ');
 if (message.content.startsWith(command)) {
-message.channel.send(${args});
+message.channel.send(`${args}`);
 }
-
+  
 });
 client.login(process.env.BOT_TOKEN);
